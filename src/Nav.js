@@ -1,7 +1,7 @@
 // Libs
 import React from 'react';
 //CSS
-import css from '../innovation.css';
+import css from './innovation.css';
 
 const Nav = () => (
 	<div className={[css.nav].join(' ')}>
