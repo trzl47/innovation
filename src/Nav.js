@@ -4,7 +4,7 @@ import React from 'react';
 import css from './innovation.css';
 
 const Nav = () => (
-	<div className={[css.nav].join(' ')}>
+	<div className={[css.nav,'nav'].join(' ')}>
 		<div className={[css.container,"container"].join(' ')}>
 			<ul>
 				<li><a href="">Register</a></li>

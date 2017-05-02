@@ -4,7 +4,7 @@ import React from 'react';
 import css from './innovation.css';
 
 const Main = () => (
-	<div className={[css.main].join(' ')}>
+	<div className={[css.main,'main'].join(' ')}>
 		<div className={[css.container,"container"].join(' ')}>
 			<img alt='' role='presentation' src={require("./assets/cloud.svg")} height="128" width="196"/>
 			<h2>The Innovation Cloud Conference</h2>
