@@ -1,12 +1,12 @@
 // Components
-import Innovation from '../app/Innovation.js';
+import Main from '../app/Main.js';
 import NotFound from '../app/NotFound';
 
 export default {
 	routes: [
 		{
 			path: '/',
-			component: Innovation,
+			component: Main,
 			exact: true
 		},
 		{
