@@ -9,7 +9,7 @@
 
 /* Header */
 .header {
-	background: url('./assets/bg.jpg') no-repeat center center;
+	background: url('../img/bg.jpg') no-repeat center center;
 	background-size: cover;
 	height: 800px;
 	text-align: center;
@@ -113,7 +113,7 @@
 
 /* Jumbotron */
 .jumbotron {
-	background: url('./assets/jumbotron_bg.jpg') center center;
+	background: url('../img/jumbotron_bg.jpg') center center;
 	background-size: cover;
 	height: 600px;
 	margin: unset;
