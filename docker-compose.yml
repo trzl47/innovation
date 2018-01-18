@@ -1,6 +1,6 @@
 version: '3'
 services:
-  innovation-web:
+  web:
     build: ./services/web/
     container_name: innovation-web
     restart: unless-stopped

@@ -1,7 +1,7 @@
 version: '3'
 services:
-  innovationcloud-web:
-    image: trzl/innovationcloud-web
+  web:
+    image: trzl/portfolio:innovationcloud-web_v0.0.1
     container_name: innovationcloud-web
     restart: unless-stopped
     expose:
